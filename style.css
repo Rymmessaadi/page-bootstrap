@@ -1,0 +1,55 @@
+body {
+    height: 100%;
+}
+
+#cover {
+    height: 500px;
+    
+    background: url("img/stars.jpg") no-repeat center center ;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#cover-caption {
+    width: 100%;
+    margin-left: 170px;
+    margin-right: auto;
+    
+}
+#form-inline{
+    margin-left: 122px;
+
+}
+#carousel-item{
+    background: no-repeat center center;
+    background-size: cover;
+}
+#about {
+    background: url("img/girlincar.jpg") center center no-repeat;
+    background-size: cover;
+}
+.about-text{
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+.section-content {
+    padding: 25px 0px;
+}
+.btn{
+    color:antiquewhite;
+    border-color: aliceblue;
+    
+}
+a:hover{
+    background-color:rgba(0,0,0,255)
+    
+
+}
+#footer-main {
+    padding:30px;
+    background-color: black;
+    color:white;
+}
